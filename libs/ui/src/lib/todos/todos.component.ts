@@ -9,9 +9,7 @@ import { Todo } from '@myorg/data';
 export class TodosComponent implements OnInit {
   @Input() todos: Todo[];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
