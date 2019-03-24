@@ -8,4 +8,5 @@
   <li *ngFor="let t of todos" class="todo">{{ t.title }}</li>
 </ul>
 
+<myorg-todos [todos]="todos"></myorg-todos>
 <button id="add-todo" (click)="addTodo()">Add Todo</button>

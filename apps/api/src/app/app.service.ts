@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { Todo } from 'data';
+import { Todo } from '@myorg/data';
 
 @Injectable()
 export class AppService {
