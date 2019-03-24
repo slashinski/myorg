@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg/data": ["libs/data/src/index.ts"]
+      "@myorg/data": [
+        "libs/data/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
